@@ -2,7 +2,9 @@
   <div id="but">
     <el-row type="flex" justify="center">
       <el-col :span="2">
-        <div class="logo"></div>
+        <div class="logo">
+          <img src="" alt="logo">
+        </div>
       </el-col>
       <el-col :span="12">
         <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
